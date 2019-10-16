@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js"></script>
+    <title>Projeto</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <p>
+        Número 1:
+        <input type="number" id="numero1">
+    </p>
+
+    <p>
+        Número 2:
+        <input type="number" id="numero2">
+    </p>
+
+    <p>
+        Operação:
+        <select id="operacao">
+            <option value="somar">+</option>
+            <option value="diferenciar">-</option>
+            <option value="multiplicar">x</option>
+            <option value="dividir">/</option>
+        </select>
+    </p>
+
+    <p>
+        <input type="button" value="Calcular" onclick="operacao()">
+        <input type="button" value="Limpar" onclick="limpar()">
+    </p>
+
+    <p>
+        Resultado:
+        <input type="number" id="resultado" disabled>
+    </p>
+
+</body>
+
+</html>
